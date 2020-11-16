@@ -35,7 +35,6 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(443, () => {
-  console.log('Server listening on :443');
+server.listen(3000, () => {
+  console.log('Server listening on :3000');
 });
-
